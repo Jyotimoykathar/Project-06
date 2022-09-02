@@ -1,0 +1,142 @@
+/* Genearl style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Allerta", "Abel", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 90vw;
+  padding: 2rem 3.2rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* *********** */
+/* Navigation */
+/* *********** */
+#navbarMonstera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 4rem;
+}
+
+#navMid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6.4rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  line-height: 0.2rem;
+  cursor: pointer;
+}
+#navMid h4 {
+  position: relative;
+  color: #333;
+}
+#navMid h4::after {
+  content: "";
+  position: absolute;
+  top: 1.6rem;
+  width: 70%;
+  text-align: center;
+  border: 1px solid #000;
+  display: none;
+  transition: all 0.3s;
+}
+#navMid h4:hover::after {
+  display: block;
+}
+#navEnd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.5rem;
+  margin-right: 3.2rem;
+  cursor: pointer;
+}
+
+/* ************* */
+/* HERO SECTION */
+/* ************* */
+
+/* HERO TEXT SECTION*/
+
+.heading-primary {
+  font-size: 9.2rem;
+  line-height: 1.05;
+  color: #222;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+}
+#midWholePart11 li {
+  font-size: 2rem;
+}
+/* DISCOVER BUTTON SECTION */
+.heading-secondary {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 1;
+}
+.discover-button {
+  background-color: #466d50;
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  border-radius: 5rem;
+  margin: 6.4rem 0.5rem;
+}
+#midWholePart121 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  color: #fff;
+}
+/* ICON BOTTOM SECTION */
+.bottom-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4.5rem;
+}
+.midWholePart13Parts {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.midWholePart13Parts h4 {
+  font-size: 2rem;
+  color: #333;
+}
+
+/* HERO IMAGE SECTION */
+.hero-image-right img {
+  width: 100%;
+}
