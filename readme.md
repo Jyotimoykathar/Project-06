@@ -23,8 +23,8 @@ This is the sixth mini-challange project among the 15 Ineuron-projects.
 
 ### Links
 
-- Code File URL: [github.com](https://github.com/Jyotimoykathar/Project-01)
-- Live Site URL: [netlify.app](https://project-01-trend2025.netlify.app/)
+- Code File URL: [github.com](https://github.com/Jyotimoykathar/Project-06)
+- Live Site URL: [netlify.app](https://project-06-plant-landing-page.netlify.app/)
 
 ## My Process
 
@@ -52,4 +52,4 @@ I have still a lot to grab on positioning elements. Grab more knowledge at sudo 
 
 ## Acknowledgments
 
-Special Thanks to [MDN](https://developer.mozilla.org/en-US/) website and to all the Ineuron team for the mini-challenge to test and improve my positioning skills.
+Special Thanks to [MDN](https://developer.mozilla.org/en-US/) website and to all the Ineuron team for the mini-challenge to test and improve my sudo elements and classes.
